@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap');
+
+
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+
+}
+
+/* Estilos Globais */
+body {
+	background-color: #F2EFE4;
+  font-family: Arial, sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  color: #F2EFE4;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	background-color: #3F594B;
+	color: #F2EFE4;
+  ;
+}
+
+header div {
+  text-align: center;
+}
+
+header h2 {
+  font-size: small;
+}
+
+main {
+	padding: 20px;
+}
+
+main h2 {
+  text-align: center;
+  color: #3F594B;
+}
+
+main #projetos{
+  margin-top: 16px;
+}
+
+/* Cards */
+.card-container {
+  display: flex;
+  justify-content: center; /* opcional: centraliza os cards horizontalmente */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: #D9D4C7;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #F2EFE4;
+  color: #3F594B;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card a {
+  background-color: #3F594B;
+  color: #F1E6C8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.5s ease;
+
+}
+
+.card a:hover {
+  background-color: #3f594bb2;
+}
+
+/*Botões*/
+.button-container {
+	display: flex;
+	justify-content: center;
+  margin-top: 16px;
+  }
+  
+  .button-container button {
+	margin: 0 10px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F2EFE4;
+	cursor: pointer;
+	background-color: #3F594B;
+	transition: background-color 0.5s ease;
+  }
+  
+  .button-linkedin:hover {
+	background-color: #3f594bb2;
+  }
+  
+  .button-github:hover {
+	background-color: #3f594bb2;
+  }
+  
+  .button-instagram:hover {
+	background-color: #3f594bb2;
+  }
+	
+
+  footer p {
+    text-align: center;
+  }
